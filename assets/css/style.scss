@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+$primary: #3d7562;
+$secondary: #e5b95e;
+$accent: #b7875e;
+$dark: #222222;
+$light: #e9e9e9;
+$text: #666666;
+
+nav {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 5px 25px 0px rgba(0,0,0,.25);
+    
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        width: 100%;
+        height: auto;
+        max-width: 1140px;
+        margin: 0 auto;
+
+        .logo-container {
+            .logo {
+                width: 130px;
+                
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    
+        .menu-container {
+            .menu {
+                ul {
+                    display: flex;
+                    list-style: none;
+
+                    li {
+                        padding: 0px 5px;
+                        font-weight: 600;
+
+                        a {
+                            color: $dark;
+                            transition: 0.3 all ease-in-out;
+                            border: 2px solid;
+                            border-color: transparent;
+
+                            &:hover, &:active {
+                                color: #e5b95e;
+                                border-bottom-color: $primary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
+        .icon-container {
+            .social-icons {
+                ul {
+                    display: flex;
+                    list-style: none;
+    
+                    li {
+                        padding: 0px 3px;
+
+                        a {
+
+                            &:hover {
+                                img {
+                                    transform: scale(0.4);
+                                }
+                            }
+
+                            img {
+                                transition: 0.3s all ease-in-out;
+                                width: 30px;
+                                height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background: url('../images/Backgrounds/background15.png');
+
+    .hero-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+
+        .text-area {
+            h1 {
+                font-size: 3rem;
+                width: 70%;
+                font-weight: 800;
+                color: $primary;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                width: 70%;
+                color: $text;
+                margin-bottom: 20px;
+            }
+
+            a {
+                background: $accent;
+                padding: 10px 20px;
+                color: #fff;
+                border-radius: 25px;
+                display: block;
+                width: 140px;
+                transition: 0.4s all ease-in-out;
+
+                &:hover {
+                    background: $dark;
+                }
+            }
+        }
+
+        .image-area {
+            img {
+                width: 450px;
+            }
+        }
+    }
+}
+
+main {
+    section {
+        &#offers {
+            width:100%;
+            height: auto;
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                width: 100%;
+                // height: 100%;
+                max-width: 1140px;
+                margin: 0 auto;
+                padding: 50px 0px ;
+
+                .content {
+                    .section-heading {
+                        width: 100%;
+                        text-align: center;
+
+                        h2 {
+                            color: $primary;
+                            font-size: 30px;
+                            margin-bottom: 20px;
+                            position: relative;
+
+                            &::after {
+                                content: '';
+                                position: absolute;
+                                background: $secondary;
+                                width: 75px;
+                                height: 3px;
+                                bottom: -10px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                            }
+                        }
+                        
+                        h4 {
+                            color: $accent;
+                            font-weight: 300;
+                        }
+                    }
+
+                    .section-text {
+                        text-align: center;
+                        width: 70%;
+                        margin: 10px auto 20px auto;
+                        
+                        p {
+                            font-size: 14px;
+                            color: $text;
+                        }
+                    }
+
+                    .tab-content {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        height: 100%;
+
+                        .left-side {
+                            width: 50%;
+                            height: 100%;
+                            
+                            .image-container {
+                                display: flex;
+                                justify-content: center;
+                                width: 100%;
+                                height: 100%;
+
+                                img {
+                                    width: 70%;
+                                    text-align: center;
+                                }
+                            }
+
+                            
+                        }
+
+                        .right-side {
+                            width: 50%;
+                            height: 100%;
+
+                            .tab-container {
+                                height: 100%;
+                                width: 100%;
+                                padding: 50px 20px;
+
+                                .radio-tabs {
+                                    text-align: center;
+
+                                    label {
+                                        height: 100%;
+                                        background: none;
+                                        font-weight: 600;
+                                        color: $dark;
+                                        padding: 10px;
+                                        width: calc(90% / 3);
+                                        display: inline-block;
+                                        position: relative;
+                                        cursor: pointer;
+                                        transition: 0.2s all ease-in-out;
+
+                                        &:first-child {
+                                            border-bottom: 2px solid $secondary;
+                                        }
+
+                                        &:hover {
+                                            background: $secondary;
+                                            color: #fff;
+                                        }
+
+                                        input {
+                                            display: none;
+                                        }
+                                    }
+                                }
+
+                                .radio-tab-content {
+                                    width: 90%;
+                                    margin: 30px auto;
+
+                                    h2 {
+                                        font-size: 18px;
+                                        margin-bottom: 15px;
+                                        color: $primary;
+                                    }
+
+                                    p {
+                                        font-size: 14px;
+                                        color: $text;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        
+    }
+}
