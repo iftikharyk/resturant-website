@@ -293,9 +293,9 @@ main section#offers .container .content .tab-content .right-side .tab-container 
   margin: 30px auto;
 }
 
-main section#offers .container .content .tab-content .right-side .tab-container .radio-tab-content h2 {
+main section#offers .container .content .tab-content .right-side .tab-container .radio-tab-content h4 {
   font-size: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   color: #3d7562;
 }
 
