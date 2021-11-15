@@ -1038,4 +1038,14 @@ footer .container .footer-col ul li a {
 footer .container .footer-col ul li a:hover {
   color: #e5b95e;
 }
+
+#copy {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background: #b7875e;
+}
 /*# sourceMappingURL=style.css.map */
