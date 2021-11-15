@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 * {
   margin: 0;
@@ -627,6 +628,361 @@ main section#booktable .container .content form .form-row button {
 main section#booktable .container .content form .form-row button:hover {
   background: #e5b95e;
   border-color: #e5b95e;
+}
+
+main section#banner {
+  width: 100%;
+  height: auto;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/Backgrounds/background2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("../images/Backgrounds/background2.jpg");
+  position: relative;
+}
+
+main section#banner .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  width: 100%;
+  height: 350px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+main section#banner .container .content {
+  text-align: center;
+}
+
+main section#banner .container .content .section-heading {
+  width: 100%;
+}
+
+main section#banner .container .content .section-heading h2 {
+  color: #e5b95e;
+  font-size: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+main section#banner .container .content .section-heading h2::after {
+  content: '';
+  position: absolute;
+  background: #e5b95e;
+  width: 75px;
+  height: 3px;
+  bottom: -10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main section#banner .container .content .section-heading h4 {
+  color: #fff;
+  font-weight: 300;
+}
+
+main section#banner .container .content .section-text {
+  width: 70%;
+  margin: 10px auto 20px auto;
+}
+
+main section#banner .container .content .section-text p {
+  font-size: 14px;
+  color: #fff;
+}
+
+main section#contact {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  position: relative;
+}
+
+main section#contact .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+main section#contact .container form {
+  width: 100%;
+  max-width: 425px;
+}
+
+main section#contact .container form .form-row {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section#contact .container form .form-row .form-col {
+  margin: 5px;
+}
+
+main section#contact .container form .form-row .form-col input {
+  padding: 10px 25px;
+  font-size: 14px;
+  color: #666666;
+  border: 1px solid #222222;
+}
+
+main section#contact .container form .form-row .form-col input:focus, main section#contact .container form .form-row .form-col input:focus-visible {
+  border-color: #3d7562;
+}
+
+main section#contact .container form .form-row textarea {
+  width: 100%;
+  resize: none;
+  padding: 15px 25px;
+}
+
+main section#contact .container form .form-row button {
+  margin: 30px auto;
+  padding: 10px 20px;
+  border: 1px solid #3d7562;
+  background: #3d7562;
+  color: #fff;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+main section#contact .container form .form-row button:hover {
+  background: #e5b95e;
+  border-color: #e5b95e;
+}
+
+main section#blog {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  position: relative;
+}
+
+main section#blog .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+main section#blog .container .blog-inner {
+  width: 100%;
+}
+
+main section#blog .container .blog-inner .blog-row {
+  width: 100%;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+main section#blog .container .blog-inner .blog-row a {
+  width: 50%;
+  border: 1px solid #e9e9e9;
+  margin: 10px;
+  padding: 15px 10px;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+main section#blog .container .blog-inner .blog-row a:hover {
+  border-color: #222222;
+}
+
+main section#blog .container .blog-inner .blog-row a h4 {
+  font-size: 18px;
+  color: #3d7562;
+}
+
+main section#blog .container .blog-inner .blog-row a p {
+  font-size: 14px;
+  color: #666666;
+}
+
+main section#menu {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  position: relative;
+}
+
+main section#menu .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+main section#menu .container .blog-inner {
+  width: 100%;
+}
+
+main section#menu .container .blog-inner .blog-row {
+  width: 100%;
+  padding: 0px ​15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section#menu .container .blog-inner .blog-row a {
+  width: 50%;
+  border: 1px solid #e9e9e9;
+  margin: 10px;
+  padding: 15px 10px;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section#menu .container .blog-inner .blog-row a:hover {
+  border-color: #222222;
+}
+
+main section#menu .container .blog-inner .blog-row a img {
+  width: 30%;
+}
+
+main section#menu .container .blog-inner .blog-row a span {
+  width: 70%;
+}
+
+main section#menu .container .blog-inner .blog-row a span h4 {
+  font-size: 18px;
+  color: #3d7562;
+}
+
+main section#menu .container .blog-inner .blog-row a span p {
+  font-size: 14px;
+  color: #666666;
+}
+
+main section#about {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  position: relative;
+}
+
+main section#about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+main section#about .container .content {
+  text-align: center;
+}
+
+main section#about .container .content .section-heading {
+  width: 100%;
+}
+
+main section#about .container .content .section-heading h2 {
+  color: #3d7562;
+  font-size: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+main section#about .container .content .section-heading h2::after {
+  content: '';
+  position: absolute;
+  background: #e5b95e;
+  width: 75px;
+  height: 3px;
+  bottom: -10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main section#about .container .content .section-heading h4 {
+  color: #b7875e;
+  font-weight: 300;
+}
+
+main section#about .container .content .section-text {
+  width: 70%;
+  margin: 10px auto 20px auto;
+}
+
+main section#about .container .content .section-text p {
+  font-size: 14px;
+  color: #666666;
 }
 
 footer {

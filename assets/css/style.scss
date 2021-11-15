@@ -585,6 +585,307 @@ main {
                 }
             }
         }
+
+        &#banner {
+            width:100%;
+            height: auto;
+            background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url("../images/Backgrounds/background2.jpg");
+            position: relative;
+
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                width: 100%;
+                height: 350px;
+                max-width: 1140px;
+                margin: 0 auto;
+                padding: 50px 0px;
+
+                .content {
+                    text-align: center;
+                    .section-heading {
+                        width: 100%;
+
+                        h2 {
+                            color: $secondary;
+                            font-size: 30px;
+                            margin-bottom: 30px;
+                            position: relative;
+
+                            &::after {
+                                content: '';
+                                position: absolute;
+                                background: $secondary;
+                                width: 75px;
+                                height: 3px;
+                                bottom: -10px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                            }
+                        }
+                        
+                        h4 {
+                            color: #fff;
+                            font-weight: 300;
+                        }
+                    }
+
+                    .section-text {
+                        width: 70%;
+                        margin: 10px auto 20px auto;
+                        
+                        p {
+                            font-size: 14px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+        &#contact {
+            width:100%;
+            height: auto;
+            background:#fff;
+            position: relative;
+
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                width: 100%;
+                // height: 350px;
+                max-width: 1140px;
+                margin: 0 auto;
+                padding: 30px 0px;
+
+                form {
+                    width: 100%;
+                    max-width: 425px;
+                    
+                    .form-row {
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .form-col {
+                            margin: 5px;
+
+                            input {
+                                padding: 10px 25px;
+                                font-size: 14px;
+                                color: $text;
+                                border: 1px solid $dark;
+
+                                &:focus, &:focus-visible {
+                                    border-color: $primary;
+                                }
+                            }
+                        }
+                        textarea {
+                            width: 100%;
+                            resize: none;
+                            padding: 15px 25px;
+                        }
+
+                        button {
+                            margin: 30px auto;
+                            padding: 10px 20px;
+                            border: 1px solid $primary;
+                            background: $primary;
+                            color: #fff;
+                            transition: 0.3s all ease-in-out;
+                            border-radius: 25px;
+                            cursor: pointer;
+
+                            &:hover {
+                                background: $secondary;
+                                border-color: $secondary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &#blog {
+            width:100%;
+            height: auto;
+            background:#fff;
+            position: relative;
+
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                width: 100%;
+                max-width: 1140px;
+                margin: 0 auto;
+                padding: 30px 0px;
+
+                .blog-inner {
+                    width: 100%;
+
+                    .blog-row {
+                        width: 100%;
+                        padding: 15px;
+                        display: flex;
+                        height: 100px;
+                        align-items: center;
+                        margin-bottom: 30px;
+                        
+                        a {
+                            width: 50%;
+                            border: 1px solid $light;
+                            margin: 10px;
+                            padding: 15px 10px;
+                            transition: 0.3s all ease-in-out;
+    
+                            &:hover {
+                                border-color: $dark;
+                            }
+                            
+                            h4 {
+                                font-size: 18px;
+                                color: $primary;
+                            }
+    
+                            p {
+                                font-size: 14px;
+                                color: $text;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &#menu {
+            width:100%;
+            height: auto;
+            background:#fff;
+            position: relative;
+
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                width: 100%;
+                max-width: 1140px;
+                margin: 0 auto;
+                padding: 30px 0px;
+
+                .blog-inner {
+                    width: 100%;
+
+                    .blog-row {
+                        width: 100%;
+                        padding: 0px ​15px;
+                        display: flex;
+                        // height: 100px;
+                        align-items: center;
+                        // margin: 15px 0px;
+                        
+                        a {
+                            width: 50%;
+                            border: 1px solid $light;
+                            margin: 10px;
+                            padding: 15px 10px;
+                            transition: 0.3s all ease-in-out;
+                            display: flex;
+                            align-items: center;
+    
+                            &:hover {
+                                border-color: $dark;
+                            }
+                            
+                            img {
+                                width: 30%;
+                            }
+
+                            span {
+                                width: 70%;
+
+                                h4 {
+                                    font-size: 18px;
+                                    color: $primary;
+                                }
+        
+                                p {
+                                    font-size: 14px;
+                                    color: $text;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &#about {
+            width:100%;
+            height: auto;
+            background:#fff;
+            position: relative;
+
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                width: 100%;
+                max-width: 1140px;
+                margin: 0 auto;
+                padding: 30px 0px;
+
+                .content {
+                    text-align: center;
+                    .section-heading {
+                        width: 100%;
+
+                        h2 {
+                            color: $primary;
+                            font-size: 30px;
+                            margin-bottom: 30px;
+                            position: relative;
+
+                            &::after {
+                                content: '';
+                                position: absolute;
+                                background: $secondary;
+                                width: 75px;
+                                height: 3px;
+                                bottom: -10px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                            }
+                        }
+                        
+                        h4 {
+                            color: $accent;
+                            font-weight: 300;
+                        }
+                    }
+
+                    .section-text {
+                        width: 70%;
+                        margin: 10px auto 20px auto;
+                        
+                        p {
+                            font-size: 14px;
+                            color: $text;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
