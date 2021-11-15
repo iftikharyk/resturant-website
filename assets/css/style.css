@@ -303,4 +303,383 @@ main section#offers .container .content .tab-content .right-side .tab-container 
   font-size: 14px;
   color: #666666;
 }
+
+main section#fullmenu {
+  width: 100%;
+  height: auto;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/Backgrounds/background2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("../images/Backgrounds/background2.jpg");
+  position: relative;
+}
+
+main section#fullmenu .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  width: 100%;
+  height: 500px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+main section#fullmenu .container .content {
+  text-align: center;
+}
+
+main section#fullmenu .container .content .section-heading {
+  width: 100%;
+}
+
+main section#fullmenu .container .content .section-heading h2 {
+  color: #e5b95e;
+  font-size: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+main section#fullmenu .container .content .section-heading h2::after {
+  content: '';
+  position: absolute;
+  background: #e5b95e;
+  width: 75px;
+  height: 3px;
+  bottom: -10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main section#fullmenu .container .content .section-heading h4 {
+  color: #fff;
+  font-weight: 300;
+}
+
+main section#fullmenu .container .content .section-text {
+  width: 70%;
+  margin: 10px auto 20px auto;
+}
+
+main section#fullmenu .container .content .section-text p {
+  font-size: 14px;
+  color: #fff;
+}
+
+main section#fullmenu .container .content a {
+  padding: 15px 25px;
+  font-weight: 600;
+  border: 1px solid white;
+  border-radius: 25px;
+  color: #222222;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  background: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+main section#fullmenu .container .content a:hover {
+  background: #e5b95e;
+  color: #fff;
+  border-color: #e5b95e;
+}
+
+main section#featured {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  position: relative;
+}
+
+main section#featured .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  width: 100%;
+  height: 500px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+main section#featured .container .content {
+  text-align: center;
+}
+
+main section#featured .container .content .section-heading {
+  width: 100%;
+}
+
+main section#featured .container .content .section-heading h2 {
+  color: #3d7562;
+  font-size: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+main section#featured .container .content .section-heading h2::after {
+  content: '';
+  position: absolute;
+  background: #e5b95e;
+  width: 75px;
+  height: 3px;
+  bottom: -10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main section#featured .container .content .section-heading h4 {
+  color: #b7875e;
+  font-weight: 300;
+}
+
+main section#featured .container .content .section-text {
+  width: 70%;
+  margin: 10px auto 20px auto;
+}
+
+main section#featured .container .content .section-text p {
+  font-size: 14px;
+  color: #666666;
+}
+
+main section#featured .container .content .food-row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section#featured .container .content .food-row .food-columns {
+  width: calc(100% / 3);
+  padding: 10px;
+}
+
+main section#featured .container .content .food-row .food-columns img {
+  width: 75%;
+  height: 170px;
+  margin: 5px auto;
+}
+
+main section#featured .container .content .food-row .food-columns h4 {
+  color: #3d7562;
+  font-size: 16px;
+}
+
+main section#featured .container .content .food-row .food-columns p {
+  color: #666666;
+  font-size: 14px;
+}
+
+main section#gallery {
+  width: 100%;
+  height: auto;
+}
+
+main section#gallery .image-row {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section#gallery .image-row .image-column {
+  width: calc(100% / 4);
+}
+
+main section#gallery .image-row .image-column img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+main section#booktable {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  position: relative;
+}
+
+main section#booktable .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  width: 100%;
+  height: 350px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+main section#booktable .container .content {
+  text-align: center;
+}
+
+main section#booktable .container .content .section-heading {
+  width: 100%;
+}
+
+main section#booktable .container .content .section-heading h2 {
+  color: #3d7562;
+  font-size: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+main section#booktable .container .content .section-heading h2::after {
+  content: '';
+  position: absolute;
+  background: #e5b95e;
+  width: 75px;
+  height: 3px;
+  bottom: -10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main section#booktable .container .content .section-heading h4 {
+  color: #b7875e;
+  font-weight: 300;
+}
+
+main section#booktable .container .content .section-text {
+  width: 70%;
+  margin: 10px auto 20px auto;
+}
+
+main section#booktable .container .content .section-text p {
+  font-size: 14px;
+  color: #666666;
+}
+
+main section#booktable .container .content form {
+  width: 100%;
+}
+
+main section#booktable .container .content form .form-row {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section#booktable .container .content form .form-row .form-col {
+  margin: 5px;
+}
+
+main section#booktable .container .content form .form-row .form-col input {
+  padding: 10px 25px;
+  font-size: 14px;
+  color: #666666;
+  border: 1px solid #222222;
+}
+
+main section#booktable .container .content form .form-row .form-col input:focus, main section#booktable .container .content form .form-row .form-col input:focus-visible {
+  border-color: #3d7562;
+}
+
+main section#booktable .container .content form .form-row button {
+  margin: 30px auto;
+  padding: 10px 20px;
+  border: 1px solid #3d7562;
+  background: #3d7562;
+  color: #fff;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+main section#booktable .container .content form .form-row button:hover {
+  background: #e5b95e;
+  border-color: #e5b95e;
+}
+
+footer {
+  width: 100%;
+  background: #e9e9e9;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+footer .container .footer-col {
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+footer .container .footer-col img {
+  width: 200px;
+}
+
+footer .container .footer-col h4 {
+  font-size: 18px;
+  color: #3d7562;
+  margin-bottom: 10px;
+}
+
+footer .container .footer-col ul {
+  list-style: none;
+}
+
+footer .container .footer-col ul li {
+  width: 100%;
+}
+
+footer .container .footer-col ul li a {
+  color: #222222;
+}
+
+footer .container .footer-col ul li a:hover {
+  color: #e5b95e;
+}
 /*# sourceMappingURL=style.css.map */
